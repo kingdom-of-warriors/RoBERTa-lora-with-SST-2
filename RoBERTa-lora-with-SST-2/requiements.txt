@@ -1,0 +1,8 @@
+transformers==4.39.2 -i https://pypi.tuna.tsinghua.edu.cn/simple
+numpy --pre --index-url https://pypi.tuna.tsinghua.edu.cn/simple
+torch torchvision torchaudio --force-reinstall --index-url https://pypi.tuna.tsinghua.edu.cn/simple
+auto-gptq --no-build-isolation
+ipykernel -i https://pypi.tuna.tsinghua.edu.cn/simple
+evaluate -i https://pypi.tuna.tsinghua.edu.cn/simple
+tqdm -i https://pypi.tuna.tsinghua.edu.cn/simple
+scikit-learn -i https://pypi.tuna.tsinghua.edu.cn/simple
