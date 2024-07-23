@@ -17,6 +17,6 @@ pip3 install numpy --pre torch torchvision torchaudio --force-reinstall --index-
 pip install auto-gptq --no-build-isolation
 
 # 安装其他常用库
-pip install -i https://pypi.tuna.tsinghua.edu.cn/simple ipykernel evaluate tqdm scikit-learn
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple ipykernel evaluate tqdm scikit-learn ipywidgets
 
 echo "All installations are complete."
